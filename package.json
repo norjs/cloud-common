@@ -1,0 +1,21 @@
+{
+  "name": "@sendanor/cloud-common",
+  "version": "1.0.0",
+  "description": "Common files for Sendanor's cloud framework",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015 -d dist/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.sendanor.fi:7999/nor/cloud-common.git"
+  },
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
