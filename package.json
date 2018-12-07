@@ -1,7 +1,7 @@
 {
-  "name": "@sendanor/cloud-common",
+  "name": "@norjs/cloud-common",
   "version": "1.0.1",
-  "description": "Common files for Sendanor's cloud framework",
+  "description": "Common files for NorJS's cloud framework",
   "main": "dist/index.js",
   "scripts": {
     "compile": "babel --presets es2015 -d dist/ src/",

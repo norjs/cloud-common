@@ -1,14 +1,14 @@
-Common files for Sendanor's cloud framework
-===========================================
+Common files for NorJS's cloud framework
+========================================
 
-Install: `npm install --save '@sendanor/cloud-common`
+Install: `npm install --save '@norjs/cloud-common`
 
 ### `createBodyIDs()` -- Create unique identifier based on object content 
 
 This function creates unique IDs for cloud objects based on their content.
 
 ```
-import { createBodyIDs } from '@sendanor/cloud-common';
+import { createBodyIDs } from '@norjs/cloud-common';
 
 let body = {
   hello: "world"
