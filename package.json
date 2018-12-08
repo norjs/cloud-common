@@ -1,12 +1,13 @@
 {
   "name": "@norjs/cloud-common",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Common files for NorJS's cloud framework",
   "main": "dist/index.js",
   "scripts": {
     "compile": "babel --presets es2015 -d dist/ src/",
-    "prepublish": "npm run compile",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run -s compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
