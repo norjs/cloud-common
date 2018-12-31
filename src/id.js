@@ -1,7 +1,7 @@
 /** Create unique IDs based on object content */
 
 import _ from 'lodash';
-import debug from 'nor-debug';
+import debug from '@norjs/debug';
 import crypto from 'crypto';
 import uuidv5 from 'uuid/v5';
 
